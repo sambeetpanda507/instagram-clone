@@ -1,0 +1,14 @@
+.story {
+   border: 1px solid lightgray;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.5rem;
+   overflow-x: scroll;
+   background-color: #ffff;
+}
+
+.avatar__border {
+   border: 2px solid;
+   border-color: rgba(214, 80, 206, 1);
+}

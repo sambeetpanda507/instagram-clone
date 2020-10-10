@@ -1,0 +1,47 @@
+.suggestion__profile {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.suggestion__profile__username {
+    margin-left: 10px;
+    line-height: 2px;
+}
+
+.suggestion__profiles__seeall {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+.suggestion__profiles__seeall:hover {
+    cursor: pointer;
+}
+
+.suggestion__profile__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.suggestion__policies span {
+    font-size: 0.8rem;
+    color: rgb(184, 184, 184) !important;
+    text-decoration: none;
+}
+
+.suggestion__policies span:hover {
+    color: rgb(104, 104, 104) !important;
+    cursor: pointer;
+}
+
+.suggestion__policies small {
+    font-size: 0.8rem;
+    color: rgb(184, 184, 184) !important;
+}
+
+.suggestion__policies {
+    width: 350px;
+    padding: 0px 10px 0px 30px;
+}
